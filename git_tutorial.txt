@@ -1,0 +1,49 @@
+GIT - repositórios locais
+
+-> Loga:
+    git config --global user.name ""
+    git config --global user.email ""
+
+-> Cria um repositório local:
+    git init
+
+-> Adiciona umarquivo ao repositório
+    git add <nome_do_arquivo>
+
+-> Grava as auterações no repositório
+    git commit -m "mensagem"
+    *cada commit recebe um hash de identificação e se torna um versão
+    do código
+
+-> Informa o status atual do repositório
+    untracked(git não liga) -> modificado -> stage(adicionado) -> unmodified(commitado)
+    git status
+
+-> Informa sobre todos os commites anteriores
+    git log
+    git log --all
+    git log --oneline (simplifica as informações)
+
+
+-> Grafo de Commites 
+    HEAD(ponteiro para o commite atual) -> MAIN(ramificação principal)
+    BRANCH(ramificação secundária)
+
+-> Navegação entre as verções, comittes antigos e ramificações (main e branch)
+    git checkout <referencai>
+
+-> Cria uma nova versão apartir do commit atual 
+    git checkout -b <nome>
+    HEAD -> nome
+
+->Renomear a branch atual
+    git branch -m nome
+
+->Incorporar as mudanças de uma branch na que esta no momento
+    git merge <nome_branch>
+
+->arquivo que define quais arquivos o git não deve rastrear (executáveis e logs)
+    .gitignore
+
+
+
