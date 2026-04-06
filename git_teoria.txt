@@ -26,3 +26,7 @@
     - permite melhoria de códigos abertos 
     - usando a função fork do girhub é possível clonar o repositório e submeter suas modificações ao original
     
+-> Rebase (outra opção além de merge)
+    - realoca os commits para a main 
+    - reescreve o histótrico
+    - fica liner ao tempo 

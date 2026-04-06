@@ -41,9 +41,16 @@ GIT - repositórios locais
 
 ->Incorporar as mudanças de uma branch na que esta no momento
     git merge <nome_branch>
+    git merge --abort (aborta o merge com comflito)
+    git branch -D meu-branch (deleta a branch)
+    git reset --hard ORIG_HEAD(desfaz o ultimo merge)
 
 ->arquivo que define quais arquivos o git não deve rastrear (executáveis e logs)
     .gitignore
+
+->realocar os commit de uma branch para a main
+    git rebase main
+
 
 
 
